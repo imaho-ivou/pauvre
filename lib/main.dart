@@ -5,14 +5,16 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('hello'),
+          title: Text('Je suis PAuvre'),
+          centerTitle: true,
           backgroundColor: Colors.grey[200],
         ),
+        backgroundColor: Colors.black,
         body: Center(
             child: Column(
           children: [
             Image(
-              image: AssetImage('images/1.png'),
+              image: AssetImage('images/pauvre.jpg'),
             ),
             Text('ezzrez'),
           ],
