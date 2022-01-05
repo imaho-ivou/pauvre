@@ -7,18 +7,23 @@ void main() {
         appBar: AppBar(
           title: Text('Je suis PAuvre'),
           centerTitle: true,
-          backgroundColor: Colors.grey[200],
+          backgroundColor: Colors.black54,
         ),
-        backgroundColor: Colors.black,
         body: Center(
             child: Column(
           children: [
             Image(
               image: AssetImage('images/pauvre.jpg'),
             ),
-            Text('ezzrez'),
+            Text(
+              "L'argent ne fait pas le bonheur, mais il y contribue",
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
           ],
         )),
+        backgroundColor: Colors.blue[400],
       ),
     ),
   );
